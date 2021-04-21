@@ -1,3 +1,6 @@
+# TO-DO
+# 1. Add inverse CDF (1 - CDF)
+# 2. Change dataframe's column names
 def ks(score, target, bins=10, negative_relationship=True, round_intervals=False, print_table=False, write_table=False):
     '''
     Prints the Kolmogorov-Smirnov metric and returns a summary table.
